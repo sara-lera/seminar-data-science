@@ -1,6 +1,7 @@
 # Seminar Assignment: The Scientific Paper of the Future (UPM)
 
 [![DOI](https://zenodo.org/badge/1174310804.svg)](https://doi.org/10.5281/zenodo.18889608)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 This repository named `seminar-data-science` is the practical assignment for the "Scientific Paper of the Future" seminar. It contains a simple Python script as an example of software and a schema of the provenance of the use-case described in exercise 2. The objective is to follow best practices in open science, software metadata, and research provenance.
