@@ -5,5 +5,7 @@ authors:
   - family-names: Lera Longares
     given-names: Sara
 version: 1.0.0
+doi: 10.5281/zenodo.18889609
 date-released: 2026-03-06
-url: "https://github.com/sara-lera/seminar-data-science"
+repository-code: "https://github.com/sara-lera/seminar-data-science"
+url: "https://doi.org/10.5281/zenodo.18889608"
