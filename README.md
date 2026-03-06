@@ -1,6 +1,6 @@
 # Seminar Assignment: The Scientific Paper of the Future (UPM)
 
-[PLACEHOLDER: AQUÍ PEGARÁS EL BADGE DE ZENODO DESPUÉS DEL RELEASE]
+[![DOI](https://zenodo.org/badge/1174310804.svg)](https://doi.org/10.5281/zenodo.18889608)
 
 ## Description
 This repository named `seminar-data-science` is the practical assignment for the "Scientific Paper of the Future" seminar. It contains a simple Python script as an example of software and a schema of the provenance of the use-case described in exercise 2. The objective is to follow best practices in open science, software metadata, and research provenance.
@@ -31,7 +31,7 @@ python t_test_example.py
 ### How to Cite
 If you use this work, please cite it as follows. You can also find a **CITATION.cff** file in this repository for automatic citation styling.
 
-Lera, Sara. (2026). **Data Science Seminar Assignment**. (Version 1.0.0). Universidad Politécnica de Madrid. GitHub. doi de zenodo.
+Lera, Sara. (2026). **Data Science Seminar Assignment**. (Version 1.0.0). Universidad Politécnica de Madrid. GitHub.https://doi.org/10.5281/zenodo.18889608. 
 
 ### License
 
