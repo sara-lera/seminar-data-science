@@ -27,4 +27,35 @@ python t_test_example.py
 ### How to Cite
 If you use this software or the provenance diagram in your research, please cite it as follows:
 
-Lera, Sara. (2026). **Data Science Seminar Assignment**. (Version 1.0.0). Universidad Politécnica de Madrid. GitHub. doi de zenodo. 
+Lera, Sara. (2026). **Data Science Seminar Assignment**. (Version 1.0.0). Universidad Politécnica de Madrid. GitHub. doi de zenodo.
+
+### License
+
+This project is licensed under the **Apache License 2.0**. This is a permissive license that allows for the use, modification, and distribution of the software, provided that the original copyright and license notice are included. 
+
+For more details, please refer to the [LICENSE](LICENSE) file included in this repository.
+
+## 1. Provenance Diagram (Exercise 2)
+This exercise implements the **W3C PROV** standard to document the lifecycle of a research study on student financial support. The goal is to provide full transparency on how the data was created, modified, and analyzed.
+
+### Provenance Diagram
+The following diagram illustrates the workflow and traceability of the project described in the slides:
+![Provenance Diagram](provenance_diagram.png)
+
+### Breakdown of PROV Elements
+Following the exercise requirements, the diagram respects the following 6 key components of the PROV standard:
+
+1. **Entities (Yellow Ovals):** Digital or physical artifacts.
+   * *Examples:* `Original Survey`, `Updated Survey`, `Dataset`, and the final `Paper`.
+2. **Activities (Purple Rectangles):** Processes that occur over a period of time.
+   * *Examples:* `Design`, `Compillation`, `Revision`, `Data Analysis`.
+3. **Agents (Green Hexagons):** Those responsible for an activity taking place.
+   * *Examples:* `Laura` (Design), `Jack & Jill` (Collection 1), `Zack` (Analysis).
+4. **Generation & Usage (wasGeneratedBy / used):**
+   * The `Dataset 1` **wasGeneratedBy** the `Conduct and Collect 1` activity.
+   * The `Data Analysis` activity **used** the `Total Dataset` entity and a `Statistics Package`. 
+5. **Derivation & Revision (wasDerivedFrom / wasRevisionOf):**
+   * `Updated Survey` **wasRevisionOf** `Original Survey`, showing the evolution of the research instrument.
+   * `Paper` **wasDerivedFrom** `Analysis Results`.
+6. **Plans**
+   * `Zack` developed the activity `Data Analysis` following a plan (**hadPLan**) `Analysis Methodology`. 
