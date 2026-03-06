@@ -23,6 +23,15 @@
     "datePublished": "2026-03-06",
     "description": "A Python-based tool for synthetic data generation and independent T-test analysis, including an example provenance schema following the W3C PROV standard. Developed for 'The Scientific Paper of the Future' seminar (UPM) to demonstrate FAIR software practices and research traceability.",
     "identifier": "https://github.com/sara-lera/seminar-data-science",
+    "keywords": [
+        "Open Science",
+        "FAIR software",
+        "Provenance",
+        "W3C PROV",
+        "T-test",
+        "Scientific Paper of the Future",
+        "Python"
+    ],
     "license": "https://spdx.org/licenses/Apache-2.0",
     "name": "Data Science Seminar Assignment",
     "programmingLanguage": "Python",
