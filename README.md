@@ -17,11 +17,15 @@ This section aims to make research software Findable, Accessible, Interoperable,
 * **`t_test_example.py`**: A Python script that generates synthetic data for two groups, calculates the t-statistic and p-value, and determines if the null hypothesis is rejected based on a 0.05 significance level.
 * **`codemeta.json`**: A metadata file following the CodeMeta standard to describe software authorship, dependencies, and features in an interoperable way.
 * **`LICENSE`**: An Apache 2.0 license file defining the legal permissions for the use, modification, and distribution of the code.
+* **`requirements.txt`**: A standard file containing the list of Python libraries (`numpy`, `scipy`) required to run the project.
 
 ### Installation & usage 
-Ensure you have Python 3 installed. You will need the following libraries:
+Ensure you have Python 3 installed. You can install all necessary dependencies using the `requirements.txt` file:
 ```bash
-pip install numpy scipy
+pip install -r requirements.txt
+```
+Once the dependencies are installed, run the script:
+```bash
 python t_test_example.py
 ```
 ### How to Cite
