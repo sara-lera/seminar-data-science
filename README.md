@@ -25,7 +25,7 @@ pip install numpy scipy
 python t_test_example.py
 ```
 ### How to Cite
-If you use this software or the provenance diagram in your research, please cite it as follows:
+If you use this work, please cite it as follows. You can also find a **CITATION.cff** file in this repository for automatic citation styling.
 
 Lera, Sara. (2026). **Data Science Seminar Assignment**. (Version 1.0.0). Universidad Politécnica de Madrid. GitHub. doi de zenodo.
 
